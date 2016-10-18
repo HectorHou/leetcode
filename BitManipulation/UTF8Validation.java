@@ -33,7 +33,7 @@
 // But the second continuation byte does not start with 10, so it is invalid.
 
 
-public class Solution {
+public class UTF8Validation {
     public boolean validUtf8(int[] data) {
 
         if (data == null || data.length == 0)
