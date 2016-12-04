@@ -21,7 +21,7 @@
 //   []
 // ]
 
-public class subsets {
+public class Subsets {
   /*
   *Solution : Backtracking
   */

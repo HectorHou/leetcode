@@ -19,7 +19,7 @@
 //   []
 // ]
 
-public class Solution {
+public class SubsetsII {
   /*
   *Solution : Prevent the duplicate subsets.
   *            We First sort the nums and for every iteration we only add the same numbers once.
