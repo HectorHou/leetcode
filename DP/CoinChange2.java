@@ -47,9 +47,6 @@ public class CoinChange2 {
     }
 
     public int change(int amount, int[] coins) {
-        if (coins == null || coins.length == 0)
-            return 0;
-
         int[][] dp = new int[coins.length + 1][amount + 1];
         dp[0][0] = 1;
 
